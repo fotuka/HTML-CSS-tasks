@@ -2,162 +2,218 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мебель на заказ</title>
-    <link rel="stylesheet" type="text/css" href="css/mebel.css">
-    <link rel="stylesheet" type="text/css" href="css/header.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link href='https://fonts.googleapis.com/css?family=Tenor Sans' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/mebel/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+    <title>Мебель</title>
 </head>
 <body>
     <header>
-        <nav class="headerContainer">
-            <ul class="ulContainer">
-                <li><a class="el" href="./master_class.html">Мастер-классы</a></li>
-                <li><a class="el" href="./mebel.html">Мебель на заказ</a></li>
-            </ul>
-            <div class="logo">
-                <a href="index.html"><img src="./images/logo.png"></a>
-            </div>
-            <ul class="ulContainer">
-                <li> <a class="el" href="#">Контакты</a></li>
-                <li> <a class="el" href="./aboutUs.html">О нас</a></li>
+        <nav class="navigation container">
+            <ul class="nav-list">
+                <li>
+                    <a href="#">Мастер-классы</a>
+                </li>
+                <li>
+                    <a href="#">Мебель на заказ</a>
+                </li>
+                <li class="logo">
+                    <a href="#">
+                        <img src="./img/index/logo.png" alt="logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Контакты</a>
+                </li>
+                <li>
+                    <a href="#">О нас</a>
+                </li>
             </ul>
         </nav>
-    </header>
+</header>
     <main>
-        <div class="furnitureMainContainer">
+        <section class="overview-top container">
             <p>Воплотим вашу любую задумку в реальность</p>
             <h1>Столярная мастерская</h1>
             <h2>NIKASON BRAND</h2>
             <button>Заказать мебель</button>
-        </div>
-        <div class="secondOrderContainer">
-            <h2>Почему выбирают нас</h2>
-            <div class="secondOrderContainerGrid">
-                <div>
-                    <h3>Давно на рынке</h3>
-                    <div class="border_style"></div>
-                    <p>Опыт работы на рынке<br>больше 10 лет</p>
+        </section>
+        <section class="overview-plus container">
+            <h1 class="overview-title">Почему выбирают нас</h1>
+            <table class="overview-plus-table">
+                <tbody>
+                    <tr class="row-1">
+                        <td>
+                            <div>
+                                <h3>Давно на рынке</h3>
+                                <div>
+                                </div>
+                                <p>Опыт работы на рынке больше 10 лет</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <h3>Гарантия качества</h3>
+                                <div>
+                                </div>
+                                <p>Представляем гарантию 12 месяцев на изделия</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <h3>Юридическая прозрачность</h3>
+                                <div>
+                                </div>
+                                <p>Заключаем с каждым клиентом договор</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="row-2">
+                        <td>
+                            <div>
+                                <h3>Экологичность</h3>
+                                <div>
+                                </div>
+                                <p>Мебель из натуральной древесины, краски без токсичного состава</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <h3>Эксклюзивность</h3>
+                                <div>
+                                </div>
+                                <p>Каждая мебель изготовлена по индивидуальному дизайну</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <h3>Долговечность</h3>
+                                <div>
+                                </div>
+                                <p>Мебель из массива дерева прослужит даже вашим детям</p>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="overview-portfolio container">
+            <h1 class="overview-title">Портфолио</h1>
+            <div class="gallery">
+                <div class="selected">
+                    <img src="/img/mebel/photo4.jpg" alt="img">
                 </div>
-                <div>
-                    <h3>Гарантия качества</h3>
-                    <div class="border_style"></div>
-                    <p>Предоставляем гарантию<br>12 месяцев на изделия </p>
-                </div>
-                <div>
-                    <h3>Юридическая прозрачность</h3>
-                    <div class="border_style"></div>
-                    <p>Заключаем с каждым клиентом<br>договор</p>
-                </div>
-                <div>
-                    <h3>Экологичность</h3>
-                    <div class="border_style"></div>
-                    <p>Мебель из натуральной древесины,<br>краски без токсичного состава</p>
-                </div>
-                <div>
-                    <h3>Эксклюзивность</h3>
-                    <div class="border_style"></div>
-                    <p>Каждая мебель изготовлена по<br>индивидуальному дизайну </p>
-                </div>
-                <div>
-                    <h3>Долговечность</h3>
-                    <div class="border_style"></div>
-                    <p>Мебель из массива дерева<br>прослужит даже вашим детям</p>
-                </div>
-            </div>
-        </div>
-        <div class="thirdOrderContainer">
-            <h2>Портфолио</h2>
-            <div class="imageContainer">
-                <img class="thirdOrderContainerImgTop" src="./images/mebel/portfolio1.png"/>
-            </div>
-            <div class="imageContainer">
-                <button class="margin_button"><img src="./images/mebel/Group 29.png"/></button>
-                <img class="thirdOrderContainerImgDown" src="./images/mebel/portfolio2.png"/>
-                <img class="thirdOrderContainerImgDown"  src="./images/mebel/portfolio3.png"/>
-                <img class="thirdOrderContainerImgDown"  src="./images/mebel/portfolio4.png"/>
-                <img class="thirdOrderContainerImgDown"  src="./images/mebel/portfolio5.png"/>
-                <img class="thirdOrderContainerImgDown"  src="./images/mebel/portfolio6.png"/>
-                <img class="thirdOrderContainerImgDown"  src="./images/mebel/portfolio7.png"/>
-                <img class="thirdOrderContainerImgDown"  src="./images/mebel/portfolio8.png"/>
-                <button class="margin_button"><img src="./images/mebel/Group 28.png"/></button>
-            </div>
-        </div>
-        <div class="fourthContainer">
-            <h2>Этапы производства</h2>
-            <div class="fourthContainerGrid">
-                <div>
-                    <h3>1</h3>
-                    <p>Встреча с клиентом</p>
-                </div>
-                <div>
-                    <h3>2</h3>
-                    <p>Подписание договора, внесение предоплаты</p>
-                </div>
-                <div>
-                    <h3>3</h3>
-                    <p>Выезд к клиенту на замер (при необходимости)</p>
-                </div>
-                <div>
-                    <h3>4</h3>
-                    <p>Составление проекта</p>
-                </div>
-                <div>
-                    <h3>5</h3>
-                    <p>Изготовление и согласование всех стадий с клиентом</p>
-                </div>
-                <div>
-                    <h3>6</h3>
-                    <p>Доставка и монтаж изделия (при необходимости)</p>
-                </div>
-            </div>
-        </div>
-            <div class="fithContainer">
-                <h2>Клиенты о нас</h2>
-                <div class="fithContainerImg">
-                    <img src="./images/mebel/review1.png">
-                    <img src="./images/mebel/review2.png">
-                    <img src="./images/mebel/review3.png">
-                    <img src="./images/mebel/review4.png">
-                    <img src="./images/mebel/review5.png">
+                <div class="variants">
+                    <div>
+                        <img src="/img/mebel/photo2.jpg" alt="img">
+                    </div>
+                    <div>
+                        <img src="/img/mebel/photo3.jpg" alt="img">
+                    </div>
+                    <div>
+                        <img src="/img/mebel/photo1.jpg" alt="img">
+                    </div>
+                    <div>
+                        <img src="/img/mebel/photo5.jpg" alt="img">
+                    </div>
+                    <div>
+                        <img src="/img/mebel/photo6.jpg" alt="img">
+                    </div>
+                    <div>
+                        <img src="/img/mebel/photo7.jpg" alt="img">
+                    </div>
+                    <div>
+                        <img src="/img/mebel/photo8.jpg" alt="img">
+                    </div>
                 </div>
             </div>
-        <div class="fithContainer">
-            <h2>Оставьте заявку и мы с вами свяжемся</h2>
-            <button class="lastButton">Оставить заявку</button>
-        </div>
+        </section>
+        <section class="overview-production container">
+            <h1 class="overview-title">Этапы производства</h1>
+            <table class="overview-production-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div>
+                                <p class="number">1</p>
+                                <p class="stage">Встреча с клиентом</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p class="number">2</p>
+                                <p class="stage">Подписание договора, внесение предоплаты</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p class="number">3</p>
+                                <p class="stage">Выезд к клиенту на замер (при необходимости)</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <p class="number">4</p>
+                                <p class="stage">Составление проекта</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p class="number">5</p>
+                                <p class="stage">Изготовление и согласование всех стадий с клиентом</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p class="number">6</p>
+                                <p class="stage">Доставка и монтаж изделия (при необходимости)</p>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="overview-clients container">
+            <h1 class="overview-title">Клиенты о нас</h1>
+            <div>
+                <img src="/img/mebel/clients1.png" alt="img">
+                <img src="/img/mebel/clients2.png" alt="img">
+                <img src="/img/mebel/clients3.png" alt="img">
+                <img src="/img/mebel/clients4.png" alt="img">
+            </div>
+        </section>
+        <section class="overview-feedback container">
+            <h1>Оставьте заявку и мы с вами свяжемся</h1>
+            <button>Оставить заявку</button>
+        </section>
     </main>
-    <footer>
-        <div class="footerContainer">
-            <div class="footerElements">
-                    <p> ИП Колодезников-Матчитов Н.И.<br>
-                        ИНН 143515646663
-                    </p>
-                <div>
-                    <a href="./master_class.html">Мастер-классы</a>
-                    <a href="./mebel.html">Мебель на заказ</a>
-                </div>
-                <div>
-                    <a href="#">Контакты</a>
-                    <a href="./aboutUs.html">О нас</a>
-                </div>
-                <div>
-                    <a href="#">Политика кофиденциальности</a>
-                    <a href="#">Договор оферты</a>
-                </div>
-                <div>
-                    <small class="footerImgContainer">
-                        <a href="#"><img src="./images/index/TgFooter.svg" ></a>
-                        <a href="#"><img src="./images/index/InstaFooter.png" ></a>
-                        <a href="#"><img src="./images/index/WaFooter.png" ></a>
-                    </small>
-                    <p class="numberPadding">+7 967 927-22-27</p>
-                </div>
-            </div>
-      </div>
+    <footer class="container">
+        <div class="footer">
+            <section class="info">
+                <small>ИП Колодезников-Матчитов Н.И.
+                ИНН 143515646663</small>
+            </section>
+            <section class="info">
+                <a href="#">Мастер-классы</a>
+                <a href="#">Мебель на заказ</a>
+            </section>
+            <section class="info">
+                <a href="#">Контакты</a>
+                <a href="#">О нас</a>
+            </section>
+            <section class="info">
+                <a href="#">Политика кофиденциальности</a>
+                <a href="#">Договор оферты</a>
+            </section>
+            <section class="info footer-links">
+                <a href="#"><img src="./img/index/footer_tg.svg" alt="tg"></a>
+                <a href="#"><img src="./img/index/footer_insta.svg" alt="inst"></a>
+                <a href="#"><img src="./img/index/footer_wh.svg" alt="wh"></a>
+            </section>
+        </div>
     </footer>
 </body>
 </html>
